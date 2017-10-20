@@ -11,8 +11,8 @@ If you can't find a solution below, please open an [issue](https://github.com/se
 * [Error Messages](#error)
 * [Versions](#versions)
 * [Environment Variables and Your SendGrid API Key](#environment)
-* [Using the Package Manager](#package-manager)
-* [Viewing the Request Body](#request-body)
+* [Using the Package Manager](#package_manager)
+* [Viewing the Request Body](#request_body)
 
 <a name="migrating"></a>
 ## Migrating from v2 to v3
@@ -86,7 +86,7 @@ becomes
 
 In the first case SENDGRID_API_KEY is in reference to the name of the environment variable, while the second case references the actual SendGrid API Key.
 
-<a name="package-manager"></a>
+<a name="package_manager"></a>
 ## Using the Package Manager
 
 We upload this library to [npm](https://www.npmjs.com/package/sendgrid) whenever we make a release. This allows you to use [npm](https://www.npmjs.com) for easy installation.
@@ -109,7 +109,7 @@ If you are using a `package.json` file:
 }
 ```
 
-<a name="request-body"></a>
+<a name="request_body"></a>
 ## Viewing the Request Body
 
 When debugging or testing, it may be useful to examine the raw request body to compare against the [documented format](https://sendgrid.com/docs/API_Reference/api_v3.html).
